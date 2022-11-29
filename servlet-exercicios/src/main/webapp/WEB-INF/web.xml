@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>Usuario ex 1</servlet-name>
+    <servlet-class>br.com.futurodev.servlet.ServletExercicio1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Usuario ex 1</servlet-name>
+    <url-pattern>/usuario.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Autenticador ex 2</servlet-name>
+    <servlet-class>br.com.futurodev.servlet.ServletExercicio2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Autenticador ex 2</servlet-name>
+    <url-pattern>/autentica.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Form ex 3</servlet-name>
+    <servlet-class>br.com.futurodev.servlet.ServletExercicio3</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Form ex 3</servlet-name>
+    <url-pattern>/form.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Tratamento ex 3</servlet-name>
+    <servlet-class>br.com.futurodev.servlet.ServletExercicio3Tratamento</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Tratamento ex 3</servlet-name>
+    <url-pattern>/tratamento.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Form ex 4</servlet-name>
+    <servlet-class>br.com.futurodev.servlet.ServletExercicio4</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Form ex 4</servlet-name>
+    <url-pattern>/formpost.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Tratamento ex 4</servlet-name>
+    <servlet-class>br.com.futurodev.servlet.ServletExercicio4Tratamento</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Tratamento ex 4</servlet-name>
+    <url-pattern>/tratamentopost.do</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+
